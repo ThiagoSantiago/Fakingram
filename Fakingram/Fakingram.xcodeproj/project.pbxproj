@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E84CD46298711AC00E4FCB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84CD45298711AC00E4FCB3 /* ContentView.swift */; };
 		9EA0C176297DEFC100479868 /* FakingramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA0C175297DEFC100479868 /* FakingramApp.swift */; };
-		9EA0C178297DEFC100479868 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA0C177297DEFC100479868 /* ContentView.swift */; };
 		9EA0C17A297DEFC200479868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EA0C179297DEFC200479868 /* Assets.xcassets */; };
 		9EA0C17D297DEFC200479868 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EA0C17C297DEFC200479868 /* Preview Assets.xcassets */; };
 		9EA0C187297DEFC300479868 /* FakingramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA0C186297DEFC300479868 /* FakingramTests.swift */; };
@@ -34,9 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E84CD45298711AC00E4FCB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9EA0C172297DEFC100479868 /* Fakingram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fakingram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EA0C175297DEFC100479868 /* FakingramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakingramApp.swift; sourceTree = "<group>"; };
-		9EA0C177297DEFC100479868 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9EA0C179297DEFC200479868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EA0C17C297DEFC200479868 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9EA0C182297DEFC300479868 /* FakingramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FakingramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +71,146 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E84CD3A298710CD00E4FCB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9E84CD3E298710E200E4FCB3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E84CD4E298712D100E4FCB3 /* Items */,
+				9E84CD4D298712B500E4FCB3 /* Authentication */,
+				9E84CD4C298712A100E4FCB3 /* Notifications */,
+				9E84CD4B2987129B00E4FCB3 /* Search */,
+				9E84CD4A2987127E00E4FCB3 /* Commnets */,
+				9E84CD492987126000E4FCB3 /* Profile */,
+				9E84CD482987125200E4FCB3 /* UploadPost */,
+				9E84CD472987124300E4FCB3 /* Feed */,
+				9E84CD422987116E00E4FCB3 /* Mian */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9E84CD3F298710EA00E4FCB3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9E84CD522987159200E4FCB3 /* Notifications */,
+				9E84CD512987158900E4FCB3 /* Feed */,
+				9E84CD502987158100E4FCB3 /* Authentication */,
+				9E84CD4F2987157B00E4FCB3 /* Profile */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9E84CD40298710ED00E4FCB3 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		9E84CD41298710F200E4FCB3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9E84CD422987116E00E4FCB3 /* Mian */ = {
+			isa = PBXGroup;
+			children = (
+				9E84CD45298711AC00E4FCB3 /* ContentView.swift */,
+			);
+			path = Mian;
+			sourceTree = "<group>";
+		};
+		9E84CD472987124300E4FCB3 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		9E84CD482987125200E4FCB3 /* UploadPost */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UploadPost;
+			sourceTree = "<group>";
+		};
+		9E84CD492987126000E4FCB3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		9E84CD4A2987127E00E4FCB3 /* Commnets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Commnets;
+			sourceTree = "<group>";
+		};
+		9E84CD4B2987129B00E4FCB3 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		9E84CD4C298712A100E4FCB3 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		9E84CD4D298712B500E4FCB3 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		9E84CD4E298712D100E4FCB3 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		9E84CD4F2987157B00E4FCB3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		9E84CD502987158100E4FCB3 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		9E84CD512987158900E4FCB3 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		9E84CD522987159200E4FCB3 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
 		9EA0C169297DEFC100479868 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +234,12 @@
 		9EA0C174297DEFC100479868 /* Fakingram */ = {
 			isa = PBXGroup;
 			children = (
+				9E84CD41298710F200E4FCB3 /* Utils */,
+				9E84CD40298710ED00E4FCB3 /* API */,
+				9E84CD3F298710EA00E4FCB3 /* ViewModels */,
+				9E84CD3E298710E200E4FCB3 /* Views */,
+				9E84CD3A298710CD00E4FCB3 /* Models */,
 				9EA0C175297DEFC100479868 /* FakingramApp.swift */,
-				9EA0C177297DEFC100479868 /* ContentView.swift */,
 				9EA0C179297DEFC200479868 /* Assets.xcassets */,
 				9EA0C17B297DEFC200479868 /* Preview Content */,
 			);
@@ -257,7 +401,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EA0C178297DEFC100479868 /* ContentView.swift in Sources */,
+				9E84CD46298711AC00E4FCB3 /* ContentView.swift in Sources */,
 				9EA0C176297DEFC100479868 /* FakingramApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
