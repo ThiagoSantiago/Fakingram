@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		9E84CD46298711AC00E4FCB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84CD45298711AC00E4FCB3 /* ContentView.swift */; };
+		9E84CD5429871A3D00E4FCB3 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84CD5329871A3D00E4FCB3 /* MainTabView.swift */; };
+		9E84CD5629871A6C00E4FCB3 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84CD5529871A6C00E4FCB3 /* FeedView.swift */; };
+		9E84CD5829871A9500E4FCB3 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84CD5729871A9500E4FCB3 /* SearchView.swift */; };
+		9E84CD5A29871AA200E4FCB3 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84CD5929871AA200E4FCB3 /* NotificationsView.swift */; };
+		9E84CD5C29871AB500E4FCB3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84CD5B29871AB500E4FCB3 /* ProfileView.swift */; };
+		9E84CD5E29871AC400E4FCB3 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84CD5D29871AC400E4FCB3 /* UploadPostView.swift */; };
 		9EA0C176297DEFC100479868 /* FakingramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA0C175297DEFC100479868 /* FakingramApp.swift */; };
 		9EA0C17A297DEFC200479868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EA0C179297DEFC200479868 /* Assets.xcassets */; };
 		9EA0C17D297DEFC200479868 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EA0C17C297DEFC200479868 /* Preview Assets.xcassets */; };
@@ -35,6 +41,12 @@
 
 /* Begin PBXFileReference section */
 		9E84CD45298711AC00E4FCB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9E84CD5329871A3D00E4FCB3 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		9E84CD5529871A6C00E4FCB3 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		9E84CD5729871A9500E4FCB3 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		9E84CD5929871AA200E4FCB3 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		9E84CD5B29871AB500E4FCB3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		9E84CD5D29871AC400E4FCB3 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
 		9EA0C172297DEFC100479868 /* Fakingram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fakingram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EA0C175297DEFC100479868 /* FakingramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakingramApp.swift; sourceTree = "<group>"; };
 		9EA0C179297DEFC200479868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -123,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				9E84CD45298711AC00E4FCB3 /* ContentView.swift */,
+				9E84CD5329871A3D00E4FCB3 /* MainTabView.swift */,
 			);
 			path = Mian;
 			sourceTree = "<group>";
@@ -130,6 +143,7 @@
 		9E84CD472987124300E4FCB3 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
+				9E84CD5529871A6C00E4FCB3 /* FeedView.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -137,6 +151,7 @@
 		9E84CD482987125200E4FCB3 /* UploadPost */ = {
 			isa = PBXGroup;
 			children = (
+				9E84CD5D29871AC400E4FCB3 /* UploadPostView.swift */,
 			);
 			path = UploadPost;
 			sourceTree = "<group>";
@@ -144,6 +159,7 @@
 		9E84CD492987126000E4FCB3 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				9E84CD5B29871AB500E4FCB3 /* ProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -158,6 +174,7 @@
 		9E84CD4B2987129B00E4FCB3 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				9E84CD5729871A9500E4FCB3 /* SearchView.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -165,6 +182,7 @@
 		9E84CD4C298712A100E4FCB3 /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
+				9E84CD5929871AA200E4FCB3 /* NotificationsView.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -401,8 +419,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E84CD5829871A9500E4FCB3 /* SearchView.swift in Sources */,
+				9E84CD5629871A6C00E4FCB3 /* FeedView.swift in Sources */,
+				9E84CD5429871A3D00E4FCB3 /* MainTabView.swift in Sources */,
 				9E84CD46298711AC00E4FCB3 /* ContentView.swift in Sources */,
 				9EA0C176297DEFC100479868 /* FakingramApp.swift in Sources */,
+				9E84CD5E29871AC400E4FCB3 /* UploadPostView.swift in Sources */,
+				9E84CD5C29871AB500E4FCB3 /* ProfileView.swift in Sources */,
+				9E84CD5A29871AA200E4FCB3 /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
