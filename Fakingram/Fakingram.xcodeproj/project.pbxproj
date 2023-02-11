@@ -14,6 +14,7 @@
 		9E84CD5A29871AA200E4FCB3 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84CD5929871AA200E4FCB3 /* NotificationsView.swift */; };
 		9E84CD5C29871AB500E4FCB3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84CD5B29871AB500E4FCB3 /* ProfileView.swift */; };
 		9E84CD5E29871AC400E4FCB3 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84CD5D29871AC400E4FCB3 /* UploadPostView.swift */; };
+		9E84CD60298DD76C00E4FCB3 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84CD5F298DD76C00E4FCB3 /* FeedCell.swift */; };
 		9EA0C176297DEFC100479868 /* FakingramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA0C175297DEFC100479868 /* FakingramApp.swift */; };
 		9EA0C17A297DEFC200479868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EA0C179297DEFC200479868 /* Assets.xcassets */; };
 		9EA0C17D297DEFC200479868 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EA0C17C297DEFC200479868 /* Preview Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		9E84CD5929871AA200E4FCB3 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		9E84CD5B29871AB500E4FCB3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		9E84CD5D29871AC400E4FCB3 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
+		9E84CD5F298DD76C00E4FCB3 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		9EA0C172297DEFC100479868 /* Fakingram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fakingram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EA0C175297DEFC100479868 /* FakingramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakingramApp.swift; sourceTree = "<group>"; };
 		9EA0C179297DEFC200479868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				9E84CD5529871A6C00E4FCB3 /* FeedView.swift */,
+				9E84CD5F298DD76C00E4FCB3 /* FeedCell.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 				9E84CD5E29871AC400E4FCB3 /* UploadPostView.swift in Sources */,
 				9E84CD5C29871AB500E4FCB3 /* ProfileView.swift in Sources */,
 				9E84CD5A29871AA200E4FCB3 /* NotificationsView.swift in Sources */,
+				9E84CD60298DD76C00E4FCB3 /* FeedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
