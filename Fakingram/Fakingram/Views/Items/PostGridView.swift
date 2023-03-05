@@ -14,11 +14,15 @@ struct PostGridView: View {
             let imageWidth = geometry.size.width / 3
             LazyVGrid(columns: items, spacing: 2) {
                 ForEach(0 ..< 10) { _ in
-                    Image("batman")
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width: imageWidth, height: imageWidth)
-                        .clipped()
+                    NavigationLink {
+                        FeedView()
+                    } label: {
+                        Image("batman")
+                            .resizable()
+                            .scaledToFill()
+                            .frame(width: imageWidth, height: imageWidth)
+                            .clipped()
+                    }
                 }
             }
         }
