@@ -27,6 +27,9 @@
 		9EA0C187297DEFC300479868 /* FakingramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA0C186297DEFC300479868 /* FakingramTests.swift */; };
 		9EA0C191297DEFC300479868 /* FakingramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA0C190297DEFC300479868 /* FakingramUITests.swift */; };
 		9EA0C193297DEFC300479868 /* FakingramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA0C192297DEFC300479868 /* FakingramUITestsLaunchTests.swift */; };
+		9EA5FA5829CFC21B00058D0D /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5FA5729CFC21B00058D0D /* ProfileHeaderView.swift */; };
+		9EA5FA5A29CFCEDB00058D0D /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5FA5929CFCEDB00058D0D /* UserStatView.swift */; };
+		9EA5FA5C29CFD0D200058D0D /* ProfileActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5FA5B29CFD0D200058D0D /* ProfileActionButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,9 @@
 		9EA0C18C297DEFC300479868 /* FakingramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FakingramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EA0C190297DEFC300479868 /* FakingramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakingramUITests.swift; sourceTree = "<group>"; };
 		9EA0C192297DEFC300479868 /* FakingramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakingramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9EA5FA5729CFC21B00058D0D /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		9EA5FA5929CFCEDB00058D0D /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
+		9EA5FA5B29CFD0D200058D0D /* ProfileActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +183,9 @@
 			isa = PBXGroup;
 			children = (
 				9E84CD5B29871AB500E4FCB3 /* ProfileView.swift */,
+				9EA5FA5729CFC21B00058D0D /* ProfileHeaderView.swift */,
+				9EA5FA5929CFCEDB00058D0D /* UserStatView.swift */,
+				9EA5FA5B29CFD0D200058D0D /* ProfileActionButtonView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -448,11 +457,14 @@
 				9EA0C176297DEFC100479868 /* FakingramApp.swift in Sources */,
 				9E84CD5E29871AC400E4FCB3 /* UploadPostView.swift in Sources */,
 				9E84CD5C29871AB500E4FCB3 /* ProfileView.swift in Sources */,
+				9EA5FA5829CFC21B00058D0D /* ProfileHeaderView.swift in Sources */,
 				9E2CC7AA29B397C5008DAC46 /* PostGridView.swift in Sources */,
+				9EA5FA5A29CFCEDB00058D0D /* UserStatView.swift in Sources */,
 				9E2CC7AC29B3A274008DAC46 /* UserCell.swift in Sources */,
 				9E2CC7A629B38C6C008DAC46 /* SearchBar.swift in Sources */,
 				9E84CD5A29871AA200E4FCB3 /* NotificationsView.swift in Sources */,
 				9E84CD60298DD76C00E4FCB3 /* FeedCell.swift in Sources */,
+				9EA5FA5C29CFD0D200058D0D /* ProfileActionButtonView.swift in Sources */,
 				9E2CC7AE29B3A28E008DAC46 /* UserListView.swift in Sources */,
 				9E25566529C1F013004B13D5 /* NotificationCell.swift in Sources */,
 				9E2CC7B029B3BA6B008DAC46 /* Extensions.swift in Sources */,
