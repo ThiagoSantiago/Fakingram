@@ -30,6 +30,7 @@
 		9EA5FA5829CFC21B00058D0D /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5FA5729CFC21B00058D0D /* ProfileHeaderView.swift */; };
 		9EA5FA5A29CFCEDB00058D0D /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5FA5929CFCEDB00058D0D /* UserStatView.swift */; };
 		9EA5FA5C29CFD0D200058D0D /* ProfileActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5FA5B29CFD0D200058D0D /* ProfileActionButtonView.swift */; };
+		9EA5FA5E29CFDDDB00058D0D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5FA5D29CFDDDB00058D0D /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		9EA5FA5729CFC21B00058D0D /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		9EA5FA5929CFCEDB00058D0D /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 		9EA5FA5B29CFD0D200058D0D /* ProfileActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionButtonView.swift; sourceTree = "<group>"; };
+		9EA5FA5D29CFDDDB00058D0D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				9E2CC7AF29B3BA6B008DAC46 /* Extensions.swift */,
+				9EA5FA5D29CFDDDB00058D0D /* ImagePicker.swift */,
 			);
 			name = Utils;
 			path = Views/Utils;
@@ -457,6 +460,7 @@
 				9EA0C176297DEFC100479868 /* FakingramApp.swift in Sources */,
 				9E84CD5E29871AC400E4FCB3 /* UploadPostView.swift in Sources */,
 				9E84CD5C29871AB500E4FCB3 /* ProfileView.swift in Sources */,
+				9EA5FA5E29CFDDDB00058D0D /* ImagePicker.swift in Sources */,
 				9EA5FA5829CFC21B00058D0D /* ProfileHeaderView.swift in Sources */,
 				9E2CC7AA29B397C5008DAC46 /* PostGridView.swift in Sources */,
 				9EA5FA5A29CFCEDB00058D0D /* UserStatView.swift in Sources */,
