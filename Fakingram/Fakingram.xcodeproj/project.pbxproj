@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18890E3229D8A83300B1FDC0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18890E3129D8A83300B1FDC0 /* LoginView.swift */; };
+		18890E3429D8A83B00B1FDC0 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18890E3329D8A83B00B1FDC0 /* RegistrationView.swift */; };
+		18890E3629D8A86700B1FDC0 /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18890E3529D8A86700B1FDC0 /* ResetPassword.swift */; };
+		18890E3829D8AC9200B1FDC0 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18890E3729D8AC9200B1FDC0 /* CustomTextField.swift */; };
+		18890E3A29D8ACB200B1FDC0 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18890E3929D8ACB200B1FDC0 /* CustomSecureField.swift */; };
 		9E25566529C1F013004B13D5 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E25566429C1F013004B13D5 /* NotificationCell.swift */; };
 		9E2CC7A629B38C6C008DAC46 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2CC7A529B38C6C008DAC46 /* SearchBar.swift */; };
 		9E2CC7AA29B397C5008DAC46 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2CC7A929B397C5008DAC46 /* PostGridView.swift */; };
@@ -51,6 +56,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18890E3129D8A83300B1FDC0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = Fakingram/Views/Authentication/LoginView.swift; sourceTree = SOURCE_ROOT; };
+		18890E3329D8A83B00B1FDC0 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegistrationView.swift; path = Fakingram/Views/Authentication/RegistrationView.swift; sourceTree = SOURCE_ROOT; };
+		18890E3529D8A86700B1FDC0 /* ResetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResetPassword.swift; path = Fakingram/Views/Authentication/ResetPassword.swift; sourceTree = SOURCE_ROOT; };
+		18890E3729D8AC9200B1FDC0 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		18890E3929D8ACB200B1FDC0 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		9E25566429C1F013004B13D5 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		9E2CC7A529B38C6C008DAC46 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		9E2CC7A929B397C5008DAC46 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
@@ -151,6 +161,8 @@
 			children = (
 				9E2CC7AF29B3BA6B008DAC46 /* Extensions.swift */,
 				9EA5FA5D29CFDDDB00058D0D /* ImagePicker.swift */,
+				18890E3729D8AC9200B1FDC0 /* CustomTextField.swift */,
+				18890E3929D8ACB200B1FDC0 /* CustomSecureField.swift */,
 			);
 			name = Utils;
 			path = Views/Utils;
@@ -221,6 +233,9 @@
 		9E84CD4D298712B500E4FCB3 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				18890E3129D8A83300B1FDC0 /* LoginView.swift */,
+				18890E3329D8A83B00B1FDC0 /* RegistrationView.swift */,
+				18890E3529D8A86700B1FDC0 /* ResetPassword.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -463,15 +478,20 @@
 				9EA5FA5E29CFDDDB00058D0D /* ImagePicker.swift in Sources */,
 				9EA5FA5829CFC21B00058D0D /* ProfileHeaderView.swift in Sources */,
 				9E2CC7AA29B397C5008DAC46 /* PostGridView.swift in Sources */,
+				18890E3829D8AC9200B1FDC0 /* CustomTextField.swift in Sources */,
+				18890E3629D8A86700B1FDC0 /* ResetPassword.swift in Sources */,
 				9EA5FA5A29CFCEDB00058D0D /* UserStatView.swift in Sources */,
 				9E2CC7AC29B3A274008DAC46 /* UserCell.swift in Sources */,
 				9E2CC7A629B38C6C008DAC46 /* SearchBar.swift in Sources */,
 				9E84CD5A29871AA200E4FCB3 /* NotificationsView.swift in Sources */,
+				18890E3A29D8ACB200B1FDC0 /* CustomSecureField.swift in Sources */,
 				9E84CD60298DD76C00E4FCB3 /* FeedCell.swift in Sources */,
 				9EA5FA5C29CFD0D200058D0D /* ProfileActionButtonView.swift in Sources */,
 				9E2CC7AE29B3A28E008DAC46 /* UserListView.swift in Sources */,
+				18890E3229D8A83300B1FDC0 /* LoginView.swift in Sources */,
 				9E25566529C1F013004B13D5 /* NotificationCell.swift in Sources */,
 				9E2CC7B029B3BA6B008DAC46 /* Extensions.swift in Sources */,
+				18890E3429D8A83B00B1FDC0 /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

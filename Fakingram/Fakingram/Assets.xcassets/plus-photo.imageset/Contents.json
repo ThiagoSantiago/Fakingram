@@ -1,11 +1,11 @@
 {
   "images" : [
     {
+      "filename" : "plus-logo.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "plus_photo.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

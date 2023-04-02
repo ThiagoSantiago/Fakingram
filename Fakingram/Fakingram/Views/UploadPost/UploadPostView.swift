@@ -19,7 +19,7 @@ struct UploadPostView: View {
                 Button {
                     imagePickerPresented.toggle()
                 } label: {
-                    Image("plus_photo")
+                    Image("plus-photo")
                         .resizable()
                         .renderingMode(.template)
                         .scaledToFill()
