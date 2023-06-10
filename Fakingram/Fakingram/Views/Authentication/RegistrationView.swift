@@ -16,6 +16,7 @@ struct RegistrationView: View {
     @State private var image: Image?
     @State var imagePickerPresented = false
     @Environment(\.presentationMode) var mode
+    @EnvironmentObject var viewModel: AuthViewModel
     var body: some View {
         ZStack {
             LinearGradient(gradient: Gradient(colors:  [Color.purple, Color.blue]), startPoint: .top, endPoint: .bottom)
@@ -75,7 +76,9 @@ struct RegistrationView: View {
                         .padding(.horizontal, 32)
                 }
                 
-                Button {} label: {
+                Button {
+                    viewModel.register()
+                } label: {
                     Text("Sign Up")
                         .font(.headline)
                         .foregroundColor(.white)

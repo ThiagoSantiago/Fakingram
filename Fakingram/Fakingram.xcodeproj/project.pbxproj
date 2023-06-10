@@ -12,6 +12,16 @@
 		18890E3629D8A86700B1FDC0 /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18890E3529D8A86700B1FDC0 /* ResetPassword.swift */; };
 		18890E3829D8AC9200B1FDC0 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18890E3729D8AC9200B1FDC0 /* CustomTextField.swift */; };
 		18890E3A29D8ACB200B1FDC0 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18890E3929D8ACB200B1FDC0 /* CustomSecureField.swift */; };
+		18890E6C29D9B9F700B1FDC0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 18890E6B29D9B9F700B1FDC0 /* FirebaseAuth */; };
+		18890E6E29D9B9F700B1FDC0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 18890E6D29D9B9F700B1FDC0 /* FirebaseFirestore */; };
+		18890E7029D9B9F700B1FDC0 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 18890E6F29D9B9F700B1FDC0 /* FirebaseFunctions */; };
+		18890E7229D9B9F700B1FDC0 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 18890E7129D9B9F700B1FDC0 /* FirebaseMessaging */; };
+		18890E7429D9B9F700B1FDC0 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 18890E7329D9B9F700B1FDC0 /* FirebaseStorage */; };
+		18890E7729D9BB1A00B1FDC0 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 18890E7629D9BB1A00B1FDC0 /* Kingfisher */; };
+		18890E7929D9BD2300B1FDC0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18890E7829D9BD2300B1FDC0 /* GoogleService-Info.plist */; };
+		18890E7B29D9C48600B1FDC0 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18890E7A29D9C48600B1FDC0 /* AuthViewModel.swift */; };
+		18890E7D29D9C7EF00B1FDC0 /* LoginViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18890E7C29D9C7EF00B1FDC0 /* LoginViewFactory.swift */; };
+		18890E7F29D9C8B100B1FDC0 /* RegistrarionViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18890E7E29D9C8B100B1FDC0 /* RegistrarionViewFactory.swift */; };
 		9E25566529C1F013004B13D5 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E25566429C1F013004B13D5 /* NotificationCell.swift */; };
 		9E2CC7A629B38C6C008DAC46 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2CC7A529B38C6C008DAC46 /* SearchBar.swift */; };
 		9E2CC7AA29B397C5008DAC46 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2CC7A929B397C5008DAC46 /* PostGridView.swift */; };
@@ -61,6 +71,10 @@
 		18890E3529D8A86700B1FDC0 /* ResetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResetPassword.swift; path = Fakingram/Views/Authentication/ResetPassword.swift; sourceTree = SOURCE_ROOT; };
 		18890E3729D8AC9200B1FDC0 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		18890E3929D8ACB200B1FDC0 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
+		18890E7829D9BD2300B1FDC0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		18890E7A29D9C48600B1FDC0 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		18890E7C29D9C7EF00B1FDC0 /* LoginViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewFactory.swift; sourceTree = "<group>"; };
+		18890E7E29D9C8B100B1FDC0 /* RegistrarionViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrarionViewFactory.swift; sourceTree = "<group>"; };
 		9E25566429C1F013004B13D5 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		9E2CC7A529B38C6C008DAC46 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		9E2CC7A929B397C5008DAC46 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
@@ -95,6 +109,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18890E7729D9BB1A00B1FDC0 /* Kingfisher in Frameworks */,
+				18890E7229D9B9F700B1FDC0 /* FirebaseMessaging in Frameworks */,
+				18890E7029D9B9F700B1FDC0 /* FirebaseFunctions in Frameworks */,
+				18890E6C29D9B9F700B1FDC0 /* FirebaseAuth in Frameworks */,
+				18890E7429D9B9F700B1FDC0 /* FirebaseStorage in Frameworks */,
+				18890E6E29D9B9F700B1FDC0 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +256,8 @@
 				18890E3129D8A83300B1FDC0 /* LoginView.swift */,
 				18890E3329D8A83B00B1FDC0 /* RegistrationView.swift */,
 				18890E3529D8A86700B1FDC0 /* ResetPassword.swift */,
+				18890E7C29D9C7EF00B1FDC0 /* LoginViewFactory.swift */,
+				18890E7E29D9C8B100B1FDC0 /* RegistrarionViewFactory.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -260,6 +282,7 @@
 		9E84CD502987158100E4FCB3 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				18890E7A29D9C48600B1FDC0 /* AuthViewModel.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -308,6 +331,7 @@
 				9E84CD3A298710CD00E4FCB3 /* Models */,
 				9EA0C175297DEFC100479868 /* FakingramApp.swift */,
 				9EA0C179297DEFC200479868 /* Assets.xcassets */,
+				18890E7829D9BD2300B1FDC0 /* GoogleService-Info.plist */,
 				9EA0C17B297DEFC200479868 /* Preview Content */,
 			);
 			path = Fakingram;
@@ -354,6 +378,14 @@
 			dependencies = (
 			);
 			name = Fakingram;
+			packageProductDependencies = (
+				18890E6B29D9B9F700B1FDC0 /* FirebaseAuth */,
+				18890E6D29D9B9F700B1FDC0 /* FirebaseFirestore */,
+				18890E6F29D9B9F700B1FDC0 /* FirebaseFunctions */,
+				18890E7129D9B9F700B1FDC0 /* FirebaseMessaging */,
+				18890E7329D9B9F700B1FDC0 /* FirebaseStorage */,
+				18890E7629D9BB1A00B1FDC0 /* Kingfisher */,
+			);
 			productName = Fakingram;
 			productReference = 9EA0C172297DEFC100479868 /* Fakingram.app */;
 			productType = "com.apple.product-type.application";
@@ -426,6 +458,10 @@
 				Base,
 			);
 			mainGroup = 9EA0C169297DEFC100479868;
+			packageReferences = (
+				18890E6A29D9B9F700B1FDC0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				18890E7529D9BB1A00B1FDC0 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 9EA0C173297DEFC100479868 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -444,6 +480,7 @@
 			files = (
 				9EA0C17D297DEFC200479868 /* Preview Assets.xcassets in Resources */,
 				9EA0C17A297DEFC200479868 /* Assets.xcassets in Resources */,
+				18890E7929D9BD2300B1FDC0 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,7 +517,9 @@
 				9E2CC7AA29B397C5008DAC46 /* PostGridView.swift in Sources */,
 				18890E3829D8AC9200B1FDC0 /* CustomTextField.swift in Sources */,
 				18890E3629D8A86700B1FDC0 /* ResetPassword.swift in Sources */,
+				18890E7F29D9C8B100B1FDC0 /* RegistrarionViewFactory.swift in Sources */,
 				9EA5FA5A29CFCEDB00058D0D /* UserStatView.swift in Sources */,
+				18890E7D29D9C7EF00B1FDC0 /* LoginViewFactory.swift in Sources */,
 				9E2CC7AC29B3A274008DAC46 /* UserCell.swift in Sources */,
 				9E2CC7A629B38C6C008DAC46 /* SearchBar.swift in Sources */,
 				9E84CD5A29871AA200E4FCB3 /* NotificationsView.swift in Sources */,
@@ -488,6 +527,7 @@
 				9E84CD60298DD76C00E4FCB3 /* FeedCell.swift in Sources */,
 				9EA5FA5C29CFD0D200058D0D /* ProfileActionButtonView.swift in Sources */,
 				9E2CC7AE29B3A28E008DAC46 /* UserListView.swift in Sources */,
+				18890E7B29D9C48600B1FDC0 /* AuthViewModel.swift in Sources */,
 				18890E3229D8A83300B1FDC0 /* LoginView.swift in Sources */,
 				9E25566529C1F013004B13D5 /* NotificationCell.swift in Sources */,
 				9E2CC7B029B3BA6B008DAC46 /* Extensions.swift in Sources */,
@@ -816,6 +856,58 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		18890E6A29D9B9F700B1FDC0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		18890E7529D9BB1A00B1FDC0 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		18890E6B29D9B9F700B1FDC0 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18890E6A29D9B9F700B1FDC0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		18890E6D29D9B9F700B1FDC0 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18890E6A29D9B9F700B1FDC0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		18890E6F29D9B9F700B1FDC0 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18890E6A29D9B9F700B1FDC0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		18890E7129D9B9F700B1FDC0 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18890E6A29D9B9F700B1FDC0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		18890E7329D9B9F700B1FDC0 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18890E6A29D9B9F700B1FDC0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		18890E7629D9BB1A00B1FDC0 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18890E7529D9BB1A00B1FDC0 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9EA0C16A297DEFC100479868 /* Project object */;
 }
