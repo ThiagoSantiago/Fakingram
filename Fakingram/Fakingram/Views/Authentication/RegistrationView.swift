@@ -49,19 +49,20 @@ struct RegistrationView: View {
                 VStack(spacing: 20) {
                     CustomTextField(text: $email, placeholder: Text("Email"), imageName: "envelope")
                         .padding()
+                        .clipped()
                         .background(Color(.init(white: 1, alpha: 0.15)))
                         .cornerRadius(10)
                         .foregroundColor(.white)
                         .padding(.horizontal, 32)
                     
-                    CustomTextField(text: $email, placeholder: Text("Username"), imageName: "person")
+                    CustomTextField(text: $username, placeholder: Text("Username"), imageName: "person")
                         .padding()
                         .background(Color(.init(white: 1, alpha: 0.15)))
                         .cornerRadius(10)
                         .foregroundColor(.white)
                         .padding(.horizontal, 32)
                     
-                    CustomTextField(text: $email, placeholder: Text("Full Name"), imageName: "person")
+                    CustomTextField(text: $fullName, placeholder: Text("Full Name"), imageName: "person")
                         .padding()
                         .background(Color(.init(white: 1, alpha: 0.15)))
                         .cornerRadius(10)
@@ -77,7 +78,7 @@ struct RegistrationView: View {
                 }
                 
                 Button {
-                    viewModel.register()
+                    viewModel.register(withEmail: email, password: password)
                 } label: {
                     Text("Sign Up")
                         .font(.headline)

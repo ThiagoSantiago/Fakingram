@@ -16,16 +16,16 @@ struct CustomSecureField: View {
                 placeholder
                     .foregroundColor(Color(.init(white: 1, alpha: 0.8)))
                     .padding(.leading, 40)
-                
-                HStack {
-                    Image(systemName: "lock")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 20, height: 20)
-                        .foregroundColor(.white)
-                    
-                    SecureField("", text: $text)
-                }
+            }
+
+            HStack {
+                Image(systemName: "lock")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 20, height: 20)
+                    .foregroundColor(.white)
+
+                SecureField("", text: $text)
             }
         }
     }
