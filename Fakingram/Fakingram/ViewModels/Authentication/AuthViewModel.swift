@@ -9,6 +9,11 @@ import SwiftUI
 import Firebase
 
 final class AuthViewModel: ObservableObject {
+    @Published var userSession: FirebaseAuth.User?
+
+    init() {
+        userSession = Auth.auth().currentUser
+    }
     func login() {
         print("login")
     }

@@ -16,7 +16,7 @@ struct FakingramApp: App {
     }
     var body: some Scene {
         WindowGroup {
-            LoginViewFactory.make()
+            ContentFactory.make()
         }
     }
 }
