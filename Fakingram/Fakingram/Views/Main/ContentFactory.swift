@@ -7,14 +7,9 @@
 
 import SwiftUI
 
-struct ContentFactory: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct ContentFactory_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentFactory()
+enum ContentFactory {
+    static func make() -> some View {
+        let contentView = ContentView()
+        return contentView.environmentObject(AuthViewModel())
     }
 }
